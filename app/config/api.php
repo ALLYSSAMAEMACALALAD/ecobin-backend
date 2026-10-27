@@ -193,3 +193,8 @@ $config['rate_limit_requests'] = 60;
 |
 */
 $config['rate_limit_seconds'] = 60;
+
+
+$config['allow_origin'] = [
+    'http://localhost:5173',
+    'https://ecobin-frontend-prki.vercel.app';
